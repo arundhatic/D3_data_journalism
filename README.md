@@ -14,8 +14,8 @@ The data set included with the assignment is based on 2014 ACS 1-year estimates:
 
 ## output screen shot
 
-![](screen_shots/screen_shot1.png)
-![](screen_shots/screen_shot2.png)
+![](screen_shots/screen_shot3.png)
+![](screen_shots/screen_shot4.png)
 
 ## link to the site
 
