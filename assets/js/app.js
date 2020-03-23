@@ -58,7 +58,7 @@ d3.csv('../../data/data.csv').then( data =>{
 		.attr('cy', d => yScale(d[yAxisSelected]))
 		.attr('r' , 10)
 	
-	   chartGroup.append('g').selectAll('text')
+	var stateText = chartGroup.append('g').selectAll('text')
 		.data(data)
 		.enter()
 		.append('text')
