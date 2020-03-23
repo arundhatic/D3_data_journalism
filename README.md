@@ -10,7 +10,7 @@ The data set included with the assignment is based on 2014 ACS 1-year estimates:
 
 ## color palette for this project (hex):
 
-#545459,#8BA68A,#F2F2F2,#F2F2F2
+#545459, #8BA68A, #F2F2F2, #F2F2F2
 
 ## output screen shot
 
