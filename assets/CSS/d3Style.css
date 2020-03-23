@@ -1,14 +1,14 @@
 
 
 .aText {
-  font-family: sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 16px;
   text-anchor: middle;
 }
 
 .active {
   font-weight: bold;
-  fill: #000;
+  fill: #0D0D0D;
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
@@ -21,19 +21,20 @@
 }
 
 .inactive:hover {
-  fill: #000;
+  fill: #0D0D0D;
   cursor: pointer;
 }
 
 /* font size dependent on radius, see app.js */
 .stateText {
-  font-family: sans-serif;
-  fill: #fff;
+  font-family: Arial, sans-serif;
+  fill: #F2F2F2;
   text-anchor: middle;
+  font-size: 10px; /* based on radius */
 }
 
 .stateCircle {
-  fill: #89bdd3;
+  fill: #8BA68A;
   stroke: #e3e3e3;
 }
 
@@ -42,12 +43,20 @@
   margin: 0;
 }
 
+.axis-text{
+  font-size: 12px;
+}
+
+.axis{
+  color:#0D0D0D;
+}
+
 .d3-tip {
   padding: 6px;
   font-size: 12px;
   line-height: 1;
   line-height: 1.5em;
-  color: #fff;
+  color: #F2F2F2;
   text-align: center;
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
