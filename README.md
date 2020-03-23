@@ -19,4 +19,4 @@ The data set included with the assignment is based on 2014 ACS 1-year estimates:
 
 ## link to the site
 
-https://arundhatic.github.io/D3_data_journalism/screen
+https://arundhatic.github.io/D3_data_journalism/
