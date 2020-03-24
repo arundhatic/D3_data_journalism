@@ -31,7 +31,7 @@ var chartGroup = svg.append('g')
 var xAxisSelected = 'poverty',
 	yAxisSelected = 'healthcare';
 
-d3.csv('../../data/data.csv').then( data =>{
+d3.csv('data/data.csv').then( data =>{
 	data.forEach( d =>{
 		d.poverty = +d.poverty;
 		d.age = +d.age;
